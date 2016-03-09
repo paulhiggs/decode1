@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: decode1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug\Decoder/" /Fp"Debug\Decoder/decode1.pch" /Yu"stdafx.h" /Fo"Debug\Decoder/" /Fd"Debug\Decoder/" /FD /GZ /c 
+"C:\Documents and Settings\ewcpahi\Desktop\Development\decode1\decodeIMView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46A.tmp" 
+Creating temporary file "C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/decoder.pdb" /debug /machine:I386 /out:"Debug/decoder.exe" /pdbtype:sept 
+".\Debug\Decoder\DalsuRichEdit.obj"
+".\Debug\Decoder\decodeIMDoc.obj"
+".\Debug\Decoder\decodeIMFrm.obj"
+".\Debug\Decoder\decodeIMView.obj"
+".\Debug\Decoder\decodeLFDoc.obj"
+".\Debug\Decoder\decodeLFFrm.obj"
+".\Debug\Decoder\decodeLFView.obj"
+".\Debug\Decoder\decoder.obj"
+".\Debug\Decoder\DlgLogAndDecode.obj"
+".\Debug\Decoder\GlobalVars.obj"
+".\Debug\Decoder\LFOptionsDlg.obj"
+".\Debug\Decoder\MainFrm.obj"
+".\Debug\Decoder\RHtmlView.obj"
+".\Debug\Decoder\ROleControlSite.obj"
+".\Debug\Decoder\SearchCombo.obj"
+".\Debug\Decoder\StdAfx.obj"
+".\Debug\Decoder\UserInputDlg.obj"
+".\Debug\Decoder\UserInputPortDlg.obj"
+".\Debug\Decoder\decoder.res"
+".\Debug\DecoderLib.lib"
+".\Debug\StdLib.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46B.tmp"
+<h3>Output Window</h3>
+Compiling...
+decodeIMView.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46D.tmp" with contents
+[
+/nologo /o"Debug/decode1.bsc" 
+".\Debug\Decoder\StdAfx.sbr"
+".\Debug\Decoder\DalsuRichEdit.sbr"
+".\Debug\Decoder\decodeIMDoc.sbr"
+".\Debug\Decoder\decodeIMFrm.sbr"
+".\Debug\Decoder\decodeIMView.sbr"
+".\Debug\Decoder\decodeLFDoc.sbr"
+".\Debug\Decoder\decodeLFFrm.sbr"
+".\Debug\Decoder\decodeLFView.sbr"
+".\Debug\Decoder\decoder.sbr"
+".\Debug\Decoder\DlgLogAndDecode.sbr"
+".\Debug\Decoder\GlobalVars.sbr"
+".\Debug\Decoder\LFOptionsDlg.sbr"
+".\Debug\Decoder\MainFrm.sbr"
+".\Debug\Decoder\RHtmlView.sbr"
+".\Debug\Decoder\ROleControlSite.sbr"
+".\Debug\Decoder\SearchCombo.sbr"
+".\Debug\Decoder\UserInputDlg.sbr"
+".\Debug\Decoder\UserInputPortDlg.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ewcpahi\LOCALS~1\Temp\RSP46D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+decoder.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
